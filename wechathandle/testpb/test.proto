@@ -1,0 +1,9 @@
+syntax="proto3";
+
+package testpb;
+message myMsg
+{
+    int32 Age=1;
+    string Name=2;
+    string Phone =3;
+}
